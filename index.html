@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>intan lailatul</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <form id="main" novalidate>
+            <h2>Tambah Akun</h2>
+            <div class="forminput">
+                <label for="name">Nama</label>
+                <input type="text" id="name" placeholder="Masukkan nama" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <div class="forminput">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Masukkan email" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <div class="forminput">
+                <label for="phone">No. Telepon</label>
+                <input type="tel" id="phone" placeholder="Masukkan nomor telepon" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+
+            <div class="forminput">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Masukkan password" autocomplete="off">
+                <i class="icon"></i>
+            </div>
+            <button type="submit">SELESAI</button>
+        </form>
+    </div>
+    <div id="successModal" class="modal">
+        <div class="notif">
+            <span class="close">&times;</span>
+            <h2>Terima Kasih!</h2>
+            <p>Akun anda berhasil dibuat.</p>
+        </div>
+    </div>
+
+</body>
+</html>
